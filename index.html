@@ -112,6 +112,8 @@
             </article>
 				
             <script>
+                var connection = new WebSocket('ws://html5rocks.websocket.org/echo', ['soap, xhtm']);
+
                connected = document.getElementById("connected");
                log = document.getElementById("log");
                chat = document.getElementById("chat");
